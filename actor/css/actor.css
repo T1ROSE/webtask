@@ -8,6 +8,7 @@ body {
 	background-color: #fff;
 	font-size: 14px;
 	margin: 0 auto;
+	min-width: 1390px;
 }
 
 header {
@@ -80,7 +81,7 @@ header {
 }
 
 .nav_category ul li {
-	margin-right: 2em;
+	margin-right: 1vw;
 	display: inline-block;
 }
 
@@ -104,18 +105,25 @@ header {
 }
 
 .gray {
-	padding: 5px 70px 5px 0px;
+	width: 20%;
 	color: #778899;
 }
 
 .pd {
-	padding: 5px 150px 5px 50px;
+	width: 30%;
 }
 
 .p {
 	padding-top: 15px;
 	line-height: 30px;
 	letter-spacing: 3px;
+	text-overflow: ellipsis;
+}
+
+.jz {
+	padding-left: 230px;
+	padding-top: 1px;
+	text-decoration: none;
 }
 
 #box {
@@ -123,26 +131,35 @@ header {
 	letter-spacing: 3px;
 }
 
-#btn {
-	float: right;
-	margin-top: -28px;
-	margin-right: 240px;
+.photo {
+	width: 28%;
+	height: 100%;
+	padding: 6px 18px 6px 0;
 }
 
-.photo,
 .movie,
 .tv {
-	width: 176px;
-	height: 100px;
 	padding: 6px 18px 6px 0;
+	white-space: nowrap;
 }
 
 .tv_l {
 	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: center;
+	margin-top: 5px;
 }
 
 .mov_l {
 	float: left;
+	width: 120px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: center;
+	margin-top: 5px;
 }
 
 .lab {
